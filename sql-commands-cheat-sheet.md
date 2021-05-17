@@ -8,7 +8,7 @@ Defining the data
 * TRUNCATE
 * COMMENT
 ## DQL (Data Query Language)
-Interacting with and moving through the data
+Retrieving and moving through the data
 * SELECT
 ## DML (Data Modification Language)
 Modifying the data
