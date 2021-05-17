@@ -1,14 +1,17 @@
 # SQL COMMANDS
-## DDL
+## DDL (Data Definition Language)
+Defining the data
 * CREATE
 * ALTER
 * DROP
 * RENAME
 * TRUNCATE
 * COMMENT
-## DQL
+## DQL (Data Query Language)
+Interacting with and moving through the data
 * SELECT
-## DML
+## DML (Data Modification Language)
+Modifying the data
 * INSERT
 * UPDATE
 * DELETE
@@ -16,6 +19,7 @@
 * CALL
 * EXPLAIN PLAIN
 * LOCK TABLE
-## DCL
+## DCL (Data Control Language)
+Granting and revoking access to the data
 * GRANT
 * REVOKE
