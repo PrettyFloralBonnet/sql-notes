@@ -47,7 +47,7 @@ A **table** is a representation of an object, an entity, a concept - some kind o
 
 ## Columns
 
-One single column is simply a column, a part of the table that stores specific types of data. However, all of the table's columns (or **attribures**) together are that table's **degree of the relation**.
+One single column is simply a column, a part of the table that stores specific types of data. However, all of the table's columns (or **attributes**) together are that table's **degree of the relation**.
 
 When we talk about what a column can store, we call that the **domain** or the **constraint** of the column/attribute. E.g. in a column "date of birth", only put dates (in a specific format).
 
@@ -74,3 +74,7 @@ Quick side note: SQL comments looks like this: `--` and `/* */`
 OLTP stands for **On-Line Transaction Processing**, operations (using relational databases) that aim to support the day to day work in an organization (e.g. by storing data on users, orders, purchases etc.).
 
 OLAP stands for **On-Line Analytical Processing**, where you take the data from OLTP and try to analyze it, figure out what decisions can be made based on the existing information.
+
+## Dump
+
+When you extract all data from a database, it is (traditionally) called a **database dump**.
