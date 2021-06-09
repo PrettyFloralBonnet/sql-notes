@@ -13,7 +13,17 @@ Renaming will still work here:
 Note that when passing an argument to the `AS` keyword, double quotes are used. Double quotes are associated with column names.
 
 ## Functions in SQL
+
 ### Aggregate functions
+
 Aggregate functions aggregate data, meaning they take all of the data in the table and produce a single output.
+
+* `AVG()` - calculates the average of a set of values
+* `COUNT()` - counts rows in a specified table or view
+* `MIN()` - gets the minimum value from a set of values
+* `MAX()` - gets the maximum value from a set of values
+* `SUM()` - calculates the sum of values
+
 ### Scalar functions
+
 Scalar (non-aggregate) functions perform operations on each individual row of data, and they produce multiple outputs.
