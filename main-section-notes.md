@@ -6,6 +6,8 @@
 ## Column concatenation
 `SELECT CONCAT(column1, 'my text', column2) FROM table;` concatenates data from the columns whose names are passed to the CONCAT function, as well as any text (in single quotes) that is passed to it.
 
+**NOTE**: The part about using single quotes with **text** is actually crucial. Single quotes are used to represent text in SQL. Double quotes are reserved for column and table names.
+
 Renaming will still work here:
 
 `SELECT CONCAT(column1, ' my text ', column2) AS "My Concatenated Column" FROM table;`
